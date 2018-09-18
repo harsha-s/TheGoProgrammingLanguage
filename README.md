@@ -4,6 +4,11 @@ My notes from reading the book.
 
 # Chapter 5 : Functions
 
+## recursion
+
+Go implementations use variable-size stacks that start small and grow as needed up to a limit on the order ofagigabyte.
+This lets us use recursion safely and without worrying about overflow
+
 ## defer 
   Any number of call may be deferred; they are executed in the reverse of the order in which they were deferred.
   
@@ -15,3 +20,5 @@ My notes from reading the book.
    return x*x
   }
   ```
+  
+  
