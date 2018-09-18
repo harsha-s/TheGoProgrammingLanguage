@@ -9,9 +9,9 @@ My notes from reading the book.
   
   Deferred functions run after return statements have updated the function's result variables. Because an annonymous function can access its enclosing function's variables, including named results, a deferred annoymous function can observe the function's results and even change the values that the enclosing function returns to its caller.
   
-  '''go
+ ``` go
   func cube(x int ) result int {
    defer func () { result *= x}
    return x*x
   }
-  '''
+  ```
